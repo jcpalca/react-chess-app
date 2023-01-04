@@ -1,0 +1,22 @@
+.Square {
+  display: grid;
+  place-content: center;
+  width: 100px;
+  height: 100px;
+}
+
+.dark-square {
+  background-color: rgb(104, 81, 85);
+}
+
+.light-square {
+  background-color: rgb(235,236,208);
+}
+
+.Square .chess-piece {
+  width: 80px;
+}
+
+[src=""] {
+  visibility: hidden;
+}
