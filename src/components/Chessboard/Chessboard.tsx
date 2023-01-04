@@ -42,9 +42,7 @@ function Chessboard() {
         }
       }
 
-      board.push(
-        <Square num={squareNum} image={image} />
-      );
+      board.push(<Square key={`(${j}, ${i})`}num={squareNum} image={image} />);
     }
   }
 
